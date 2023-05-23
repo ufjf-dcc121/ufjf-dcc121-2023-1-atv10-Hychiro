@@ -33,6 +33,15 @@
     <footer>
         <p>&copy; Hiero H B Costa - 2023</p>
     </footer>
+    <script>
+        const formulario = document.forms.entrada;
+        formulario.addEventListener('submit', envia);
+        
+        function envia(evento){
+            evento.preventDefault();
+            console.log('forms enviado');
+        }
+    </script>
 </body>
 
 </html>
