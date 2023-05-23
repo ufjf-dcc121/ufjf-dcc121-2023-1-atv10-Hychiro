@@ -5,6 +5,11 @@ html{
 main{
     display: flex;
 }
+
+header {
+    background-color: black;
+    color: blue;
+ }
 header h1{
     margin-bottom: 2px;
 }
