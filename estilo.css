@@ -6,7 +6,7 @@ main{
     display: flex;
 }
 header h1{
-    margin-bottom: 0px;
+    margin-bottom: 2px;
 }
 header h2{
     margin-top: 0.2rem;
