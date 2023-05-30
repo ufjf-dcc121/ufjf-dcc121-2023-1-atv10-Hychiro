@@ -1,4 +1,4 @@
-import {estado} from "./store.js";
+import store from "./store.js";
 
 const formulario = document.forms.entrada;
 
@@ -7,10 +7,10 @@ atualiza();
 function envia(evento) {
     evento.preventDefault();
     console.log('forms enviado');
-    estado++;
+    store.estado++;
     atualiza();
 }
 function atualiza() {
     const ol = document.querySelector('ol');
-    ol.innerHTML = `<li>${estado}</li>`;
+    ol.innerHTML = `<li>${store.estado}</li>`;
 }
