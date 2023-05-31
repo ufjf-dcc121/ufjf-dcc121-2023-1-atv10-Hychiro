@@ -1,4 +1,4 @@
-import { addVal, getItems } from "./store.js";
+import { addVal, getItems, remover } from "./store.js";
 
 const formulario = document.forms.entrada;
 
@@ -8,6 +8,8 @@ atualiza();
 
 function remove() {
     console.log('remove clickado!');
+    remover();
+    atualiza();
 }
 
 

@@ -6,3 +6,6 @@ export function addVal(valor){
 export function getItems() {
     return [...store.estado];
 }
+export function remover() {
+    store.estado.pop()
+}
